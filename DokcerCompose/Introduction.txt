@@ -3,7 +3,7 @@ first let us run the container
 
 create the docker network
 
-    - docker network create { name }
+    - docker network create { my-network }
 
     - docker run --name mongo-dc -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --network dc mongo
 
