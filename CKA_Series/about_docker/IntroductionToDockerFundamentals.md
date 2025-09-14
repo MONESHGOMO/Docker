@@ -1,7 +1,7 @@
 ### Why we need containers
 
 - Traditional Build flow
-![alt text](images/image.png)
+![alt text](image.png)
 
 ``` text
 Most of the time the build failed in the production environemnt why because the mis-configurations in the different environment 
@@ -9,9 +9,9 @@ Most of the time the build failed in the production environemnt why because the 
 
 ### Docker way to build flow
 
-![alt text](images/image-1.png)
+![alt text](image-1.png)
 
-![alt text](images/image-2.png)
+![alt text](image-2.png)
 
 
 ### Docker 
@@ -23,12 +23,12 @@ A platform that helps to execute these task build , ship  and our containers
 ### Container VS Virtual Machine 
 
 
-![alt text](images/image-7.png)
+![alt text](image-7.png)
 
 <br>
 
-![alt text](images/image-4.png)
-![alt text](images/image-5.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
 
 ``` bash
 
@@ -44,9 +44,9 @@ Virtual Machine :
 ### Container 
 
 
-![alt text](images/image-6.png)
+![alt text](image-6.png)
 
-![alt text](images/image-3.png)
+![alt text](image-3.png)
 
 
 ``` bash 
@@ -61,7 +61,7 @@ Container are light weight and protable
 | **Resource Use** | Lightweight (MBs)                              | Heavyweight (GBs)                         |
 | **Performance**  | Near-native (low overhead)                     | Slower due to virtualization overhead     |
 | **Isolation**    | Process-level isolation (less secure than VMs) | Strong isolation (hardware-level)         |
-| **Use Case**     | Best for microservices & CI/CD pipelines       | Best for running multiple OS environments |
+| **Use Case**     | Best for microservices & CICD pipelines       | Best for running multiple OS environments |
 
 
 <br>
@@ -70,7 +70,7 @@ Container are light weight and protable
 
 ### Docker Flow
 
-![alt text](images/image-8.png)
+![alt text](image-8.png)
 
 ``` bash
 Devlopers are responsible for creating the Dockerfile
@@ -83,7 +83,7 @@ Dockerfile -> (build) -> Docker Imgae -> (run) -> Docker Conntainer ( Running In
 
 ### Docker Architecture
 
-![alt text](images/image-9.png)
+![alt text](image-9.png)
 
 # Docker Engine vs Docker Daemon
 
@@ -97,7 +97,7 @@ Dockerfile -> (build) -> Docker Imgae -> (run) -> Docker Conntainer ( Running In
 ## Docker Daemon
 - Background service that manages:
   - Containers
-  - images/images
+  - 
   - Networks
   - Volumes
 - Listens to Docker API requests and performs the actual operations.
